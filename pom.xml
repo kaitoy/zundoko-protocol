@@ -1,0 +1,52 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.github.kaitoy.zundoko</groupId>
+  <artifactId>zundoko-protocol</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>ZUNDOKO Protocol</name>
+  <description>ZUNDOKO Protocol</description>
+  <url>https://github.com/kaitoy/zundoko-protocol</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <scm>
+    <connection>scm:git:git@github.com:kaitoy/zundoko-protocol.git</connection>
+    <developerConnection>scm:git:git@github.com:kaitoy/zundoko-protocol.git</developerConnection>
+    <url>https://github.com/kaitoy/zundoko-protocol.git</url>
+    <tag>HEAD</tag>
+  </scm>
+
+  <developers>
+    <developer>
+      <id>kaitoy</id>
+      <name>Kaito Yamada</name>
+      <email>kaitoy@pcap4j.org</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>org.pcap4j</groupId>
+      <artifactId>pcap4j-core</artifactId>
+      <version>${pcap4j.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>org.pcap4j</groupId>
+      <artifactId>pcap4j-packetfactory-propertiesbased</artifactId>
+      <version>${pcap4j.version}</version>
+    </dependency>
+  </dependencies>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <pcap4j.version>1.6.2</pcap4j.version>
+  </properties>
+</project>

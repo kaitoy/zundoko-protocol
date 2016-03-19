@@ -92,13 +92,13 @@ VMware Playerのホストとゲストで可。
 
 サーバマシンとクライアントマシンには[WinPcap](http://www.winpcap.org/)か[libpcap](http://www.tcpdump.org/)をインストールしておく。
 
-依存ライブラリをダウンロードするため、`zundoko\bin\`に`cd`して以下のコマンドを実行する。(要Maven。)
+依存ライブラリをダウンロードするため、`zundoko-protocol\bin\`に`cd`して以下のコマンドを実行する。(要Maven。)
 
 ```cmd
 configure.bat
 ```
 
-サーバを起動するには、`zundoko\bin\`で以下のコマンドを実行する。
+サーバを起動するには、`zundoko-protocol\bin\`で以下のコマンドを実行する。
 
 ```cmd
 run-server.bat
@@ -108,7 +108,7 @@ run-server.bat
 クライアントとL2レベルでつながっているものを選ぶ。
 選んだインターフェースのMacアドレスはクライアントの起動に使うのでメモしておく。
 
-クライアントを起動するには、`zundoko\bin\`で以下のコマンドを実行する。
+クライアントを起動するには、`zundoko-protocol\bin\`で以下のコマンドを実行する。
 
 ```cmd
 run-client.bat <Macアドレス>

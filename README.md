@@ -72,6 +72,18 @@ EtherTypeは[IANA](http://www.iana.org/assignments/ieee-802-numbers/ieee-802-num
 * [com.github.kaitoy.zundoko.protocol.ZundokoServer](https://github.com/kaitoy/zundoko-protocol/tree/master/src/main/java/com/github/kaitoy/zundoko/protocol/ZundokoServer.java): Zundokoサーバ
 * [com.github.kaitoy.zundoko.protocol.ZundokoClient](https://github.com/kaitoy/zundoko-protocol/tree/master/src/main/java/com/github/kaitoy/zundoko/protocol/ZundokoClient.java): Zundokoクライアント
 
+ビルド
+------
+今だに[Maven](https://maven.apache.org/)。
+
+以下を実行するとビルドできる。
+
+```cmd
+git clone https://github.com/kaitoy/zundoko-protocol.git
+cd zundoko-protocol
+mvn install
+```
+
 サーバ/クライアントの使い方
 ---------------------------
 下位レイヤがEthernetなのでネットワークセグメントを超えたZundokoパケットのやり取りはできない。
